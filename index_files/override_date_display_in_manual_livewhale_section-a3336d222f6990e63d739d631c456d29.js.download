@@ -1,0 +1,22 @@
+/*
+Date Added: 9/12/25
+Added By: Owen McNamara <omcnamar@andrew.cmu.edu>
+Requested By: Jen Roupe <jroupe@andrew.cmu.edu>
+Related Ticket: n/a
+Affects:
+  - Home page LiveWhale static section
+Dependencies:
+  - 
+Explanation:
+	- Changes the single date to display a date range instead
+Removal criteria:
+  - To be removed on next manual event update, or upon completion of DPL-3990
+*/
+/*
+const dateUpdate = () => {
+	if(document.querySelector(".paragraph--type--featured-events .FeaturedPosts__content .meta.meta--alt")) {
+    document.querySelector(".paragraph--type--featured-events .FeaturedPosts__content .meta.meta--alt").innerHTML = "10/8 - 10/11";
+  }
+};
+window.addEventListener('load', dateUpdate);
+*/

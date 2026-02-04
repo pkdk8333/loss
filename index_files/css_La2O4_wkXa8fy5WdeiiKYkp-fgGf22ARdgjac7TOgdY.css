@@ -1,0 +1,4 @@
+/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */
+@media (max-width:1280px){.Header__nav .menu-item{display:block;}}
+.Section__header{.Section-- &{padding-inline:var(--wrap-sm);}.ContentSidebar .Section-- &{padding-inline:0;}}.ContentSidebar .Section:not(:first-child){padding-inline:0;padding-block:var(--panel)}.paragraph--type--p-wysiwyg{.Section__header{display:block;p{margin-block:1em;}}}.Section--gray:not(.Section--bg-split-alt) + .Section--gray.Section--bg-split-alt{padding-top:var(--panel);}
+a .media--type-image{overflow:hidden;}a:not([class]):has(img) img{transition:none !important;}a:not([class]):has(img) [class] img{transition:var(--transition) !important;}a:not([class]):has(img):hover img{transform:scale(1);}a:not([class]):has(img):hover [class] img{transform:scale(1.1);}

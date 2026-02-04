@@ -1,0 +1,9 @@
+ var dataLayer=window.dataLayer=window.dataLayer||[];
+
+  		console.log("Inject siteid");
+  	 dataLayer.push({
+    'siteId': 'main',
+    'siteName': 'main',
+    'cms': 'drupal'
+  });
+  

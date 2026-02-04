@@ -1,0 +1,6 @@
+//Patch for Livewhale urls
+const eventPatch = () => {
+document.querySelectorAll(".lw_events_title a").forEach((link) => {link.href = link.href.replace("live/","").replace("/events/","/event/")});
+document.querySelectorAll(".Posts__title a").forEach((link) => {link.href = link.href.replace("live/","").replace("/events/","/event/")});
+};
+window.addEventListener('load', eventPatch);
